@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      tfoot {
+        border: 1px solid black;
+        font-weight: bold;
+      }
+      table,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        width: 300px;
+      }
+      td {
+        border-left: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        width: 300px;
+      }
+      td {
+        text-align: right;
+      }
+      .N {
+        padding-right: 100px;
+        text-align: left;
+      }
+      .bottom {
+        padding-bottom: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <table align="center" width="800">
+        <thead>
+          <tr>
+            <th rowspan="2">S.N</th>
+            <th rowspan="2">SUBJECTS</th>
+            <th rowspan="2">FULL MARKS</th>
+            <th rowspan="2">PASS MARKS</th>
+            <th colspan="3">OBTAINED MARKS</th>
+            <th rowspan="2">CLASS HIGHEST</th>
+          </tr>
+          <tr>
+            <th>TH.</th>
+            <th>PR.</th>
+            <th>TOTAL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td class="N">Nepali</td>
+            <td>100.0</td>
+            <td>40.0</td>
+            <td>95.5</td>
+            <td rowspan="2"></td>
+            <td>95.5</td>
+            <td>97.5</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td class="N">Maths</td>
+            <td>100.0</td>
+            <td>40.0</td>
+            <td>70.5</td>
+            <td>70.5</td>
+            <td>91</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td class="N">English-I</td>
+            <td>100.0</td>
+            <td>40.0</td>
+            <td>69.5</td>
+            <td>24</td>
+            <td>93.5</td>
+            <td>97.5</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td class="N">Science</td>
+            <td>100.0</td>
+            <td>40.0</td>
+            <td>68</td>
+            <td>25</td>
+            <td>93.0</td>
+            <td>98</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td class="N">Social</td>
+            <td>100.0</td>
+            <td>40.0</td>
+            <td>69</td>
+            <td>23</td>
+            <td>92.0</td>
+            <td>94.5</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td class="N">English-II</td>
+            <td>100.0</td>
+            <td>40.0</td>
+            <td>82</td>
+            <td></td>
+            <td>82.0</td>
+            <td>97</td>
+          </tr>
+          <tr>
+            <td>7.</td>
+            <td class="N">Health&Phy</td>
+            <td>100.0</td>
+            <td>40.0</td>
+            <td>71</td>
+            <td>23</td>
+            <td>94.0</td>
+            <td>98</td>
+          </tr>
+          <tr>
+            <td>8.</td>
+            <td class="N">Computer</td>
+            <td>70.0</td>
+            <td>28.0</td>
+            <td>30</td>
+            <td>18</td>
+            <td>48.0</td>
+            <td>63</td>
+          </tr>
+          <tr>
+            <td>9.</td>
+            <td class="N">G.K.</td>
+            <td>30.0</td>
+            <td>12.0</td>
+            <td>26</td>
+            <td rowspan="2"></td>
+            <td>26.0</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td class="bottom">10.</td>
+            <td class="N bottom">LS</td>
+            <td class="bottom">20.0</td>
+            <td class="bottom">8.0</td>
+            <td class="bottom">15</td>
+            <td class="bottom">15.0</td>
+            <td class="bottom">20</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td></td>
+            <td class="Total">TOTAL</td>
+            <td>820.0</td>
+            <td>328.0</td>
+            <td>596.5</td>
+            <td>113.0</td>
+            <td>709.5</td>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+      <table cell-padding="100">
+        <tr>
+          <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+          <th rowspan="7">Hours</th>
+        </tr>
+        <tr>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Arts</td>
+        </tr>
+        <tr>
+          <td>Social</td>
+          <td>History</td>
+          <td>English</td>
+          <td>Science</td>
+          <td>Sports</td>
+        </tr>
+        <tr>
+          <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Arts</td>
+        </tr>
+        <tr>
+          <td>Social</td>
+          <td>History</td>
+          <td>English</td>
+          <td>Science</td>
+          <td>Sports</td>
+        </tr>
+      </table>
+      <iframe
+        src="https://www.bbc.com/"
+        frameborder="0"
+        height="700px"
+        width="400"
+      ></iframe>
+
+      <video width="320" height="240" controls>
+        <source
+          src="https://www.w3schools.com/html/mov_bbb.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+      <audio
+        controls
+        src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+      ></audio>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/LdlLUogNYMw?si=OwWM9o5zeu9LHvtf"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+      <del>trioti</del>
+      <mark>err</mark>
+      <em>nthjr</em>
+      <small>trithII</small>
+      <ins>TRhjurtt</ins> <br />
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3538.8189332559186!2d83.41497117529325!3d27.50600607629855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399690a15a5db217%3A0x9d94b83c7a557e91!2sGautam%20Buddha%20International%20Airport!5e0!3m2!1sen!2snp!4v1709039130695!5m2!1sen!2snp"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <a href="https://www.bbc.com/" target="_blank">nice</a>
+      <a href="https://broadwayinfosys.com/" target="_blank">
+        <img src="" alt="image" />
+      </a>
+      <a href="mailto:ga1@gmail.com">Mail</a>
+
+      <form action="">
+        <label for="name">Enter your name</label><br /><br />
+        <input type="text" placeholder="Your name here" id="name" /><br /><br />
+        <label for="age">Enter your age</label><br /><br />
+        <input
+          type="number"
+          placeholder="Your age"
+          min="10"
+          max="100"
+          step="5"
+        /><br /><br />
+        <label for="dob">Enter date</label><br /><br />
+        <input type="date" placeholder="Your name here" id="date" /><br /><br />
+        <label for="dot">Enter time</label><br /><br />
+        <input type="time" id="dot" /><br /><br />
+        <label for="col">Enter favcolor</label><br /><br />
+        <input type="color" id="col" /><br /><br />
+        <label for="budget">Enter your budget</label><br /><br />
+        <input type="range" id="budget" /><br /><br />
+        <label for="email">Enter your name</label><br /><br />
+        <input type="email" placeholder="Your email" id="email" /><br /><br />
+        <label for="pwd">Enter your name</label><br /><br />
+        <input type="password" placeholder="password" id="pwd" /><br /><br />
+        <label for="msg">Enter your message here</label><br /><br />
+        <textarea name="" id="msg" cols="30" rows="10"></textarea>
+        <!-- select -->
+        <label for="course"></label>
+        <select name="courseName" id="course" multiple>
+          <option value="Java">Java</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="C">C</option>
+          <option value="C++">C++</option></select
+        ><br />
+
+        <label for="">Fav what?</label><br />
+        <input type="checkbox" name="topic" id="ML" value="ML" />
+        <label for="ML">Machine Learning</label>
+        <br />
+        <input type="checkbox" name="topic" id="ai" value="ai" />
+        <label for="ai">Artificial Intelligence</label>
+        <br />
+        <input type="checkbox" name="topic" id="nlp" value="nlp" />
+        <label for="nlp">Natureal Language Processing</label><br />
+        <input type="checkbox" name="topic" id="ds" value="ds" />
+        <label for="ds">Data Science</label> <br /><br />
+
+        <label for="">Are you a Student?</label><br />
+        <input type="radio" name="student" id="yes" value="yes" />
+        <label for="yes">Yes</label>
+        <br />
+        <input type="radio" name="student" id="no" value="no" />
+        <label for="no">No</label>
+        <br />
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" />
+        <input type="search" name="" id="" />
+      </form>
+      <br /><br /><br />
+    </main>
+  </body>
+</html>
