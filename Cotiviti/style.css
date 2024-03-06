@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+}
+header{
+    background-color: #31006e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+#menu li a:hover{
+    color: #F0047F;
+}
+#menu li a.nice:active{
+    color: #F0047F;
+}
+header img{
+    width: 220px;
+}
+nav{
+    float: right;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
