@@ -1,36 +1,111 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Arial";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial";
+  line-height: 1.5;
 }
-header{
-    background-color: #31006e;
-    padding-top: 20px;
-    padding-bottom: 20px;
+header {
+  background-color: #31006e;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-#menu li{
-    display: inline-block;
+#menu li {
+  display: inline-block;
 }
-#menu li a{
-    color: white;
+#menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+#menu li a:hover {
+  color: #f0047f;
+}
+#menu li a.nice:active {
+  color: #f0047f;
+}
+header img {
+  width: 220px;
+}
+nav {
+  float: right;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* hero-section */
+#hero {
+  background-color: #31006e;
+  background-image: url("images/banner-pattern.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: auto 125%;
+}
+div p.Grow{
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+div p{
+    font-size: 18px;
+}
+#white-box {
+  background-color: white;
+  width: 50%;
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#white-box small {
+    font-size: 16px;
+  color: #7f7f7f;
+}
+#white-box p {
+  color: #f0047f;
+}
+#white-box h2 {
+  color: #31006e;
+  font-size: 48px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+section#hero{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 16px;
+}
+
+/* bilding-wrapper */
+.imagewrapper{
+    /* width: auto; */
+    /* height: 30vw; */
+    background-image: url("images/building.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+.content{
+    width: 45%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+div.content p{
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #333333;
+}
+div.content a{
+    color: #2E3192;
     text-decoration: none;
-    padding: 15px;
 }
-#menu li a:hover{
-    color: #F0047F;
-}
-#menu li a.nice:active{
-    color: #F0047F;
-}
-header img{
-    width: 220px;
-}
-nav{
-    float: right;
-}
-.container{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+/* image-section */
+section#imgsection {
+    max-width: 1600px;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url("images/parallax-home.jpg");
 }
