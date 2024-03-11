@@ -6,11 +6,12 @@
   font-family: "Arial";
   line-height: 1.5;
 }
+a{
+    text-decoration: none;
+}
 header{
     width: 100%;
-    margin-top: 1.5rem;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 1.5rem auto 1.5rem auto ; 
     max-width: 1300px;
     display: flex;
     justify-content: space-between;
@@ -62,4 +63,98 @@ button:hover{
 }
 .btnbox{
     margin-right: .5rem;
+}
+/* hero-section */
+.container{
+    margin-left: 118px;
+    margin-right: 118px;
+}
+.herohead{
+    display: flex;
+    justify-content: space-between;
+}
+div.herodetail p:nth-child(1){
+    margin-top: 2rem;
+}
+.herodetail{
+    width: 50%;
+}
+.container p{
+    line-height: .8;
+    font-weight: bold;
+    font-size: 100px;
+}
+.herodetail p.description, p.description{
+    line-height: 1.2;
+    font-weight:400;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.green{
+    color: #038E43;
+}
+div.herodetail .build-join a{
+    font-size: 1rem;
+    font-weight: bold;
+}
+div.herodetail .build-join i{
+    font-size: 1.5rem;
+}
+a.build-with-us, .join-us, .build-join{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+a.build-with-us{
+    margin-right: 2rem;
+}
+a.build-with-us, a.join-us:hover{
+    color: #038E43; 
+}
+a.join-us, a.build-with-us:hover{
+    color: #111111;
+}
+/* trusted by section */
+.container h2{
+    width: 100%;
+    line-height: .6;
+    /* border: 1px solid red; */
+    font-size: 64px;
+    text-align: center;
+}
+section#trusted-section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+p.trusteddes{
+    text-align: center;
+    margin-top: 2rem;
+}
+.imagecontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+figure{
+    margin-top: 3rem;
+    height: 115px;
+    width: 308px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+figure{
+    animation: move;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    /* animation-direction: normal ; */
+}
+@keyframes move {
+    from{
+        padding-top: 6rem;
+    }
+    to{
+        padding: 0rem;
+    }
 }
