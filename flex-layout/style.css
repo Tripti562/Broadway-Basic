@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+#sherpa{
+  background-color: #F4F6F8;
+  background-image: url("images/services-bg.png");
+  background-size: 140px auto;
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 70px 200px 70px 200px;;
+}
+.heading{
+  background-image: url("images/plane.png");
+  background-size: 60px auto;
+  background-repeat: no-repeat;
+  background-position: top left;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.heading h2{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #010C18;
+}
+.heading p{
+  margin-top: .8rem;
+  font-size: 1rem;
+  color: #999999;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.box{
+  width: calc(25% - 1.3rem);
+  background-color: white;
+  border-radius: .9rem;
+}
+
+.circle{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  margin-top: -1.5rem;
+  margin-left: 2.2rem;
+  border-radius: 50%;
+}
+img{
+  border-radius: 50%;
+}
+.detail{
+  /* height: 135px; */
+  
+  
+  padding: 1.5rem;
+}
+.detail p{
+  color: #999999;
+}
+.detail h3{
+  font-size: 1.5rem;
+  color: #010C18;
+  margin-top: .5rem;
+  margin-bottom: 0.5rem;
+}
