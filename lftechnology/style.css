@@ -117,26 +117,31 @@ a.join-us, a.build-with-us:hover{
 }
 /* trusted by section */
 .container h2{
+    /* margin-right: 5rem; */
     width: 100%;
     line-height: .6;
     /* border: 1px solid red; */
-    font-size: 64px;
+    font-size: 40px;
     text-align: center;
 }
 section#trusted-section{
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.width1{
+    margin-left: 150px;
+    margin-right: 150px;
+}
 p.trusteddes{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .imagecontainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 figure{
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     height: 115px;
     width: 308px;
     display: flex;
@@ -157,4 +162,23 @@ figure{
     to{
         padding: 0rem;
     }
+}
+
+#russrichad{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.text p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.russrow{
+    display: flex;
+}
+.imageRuss, .text{
+    padding: 0px .8rem;
+}
+p.path{
+    font-weight: bold;
+    font-size: 6rem;
 }
