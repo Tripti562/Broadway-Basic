@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  button{
+      background-color: yellow;
+      border: 1px solid black;
+      padding:  .2rem 2.2rem;
+      text-align: center;
+      font-weight: bold;
+  }
+  main{
+      display: inline-block;
+      background-color: white;
+      margin-top: 2rem;
+      margin-left: 2rem;
+  }
+  
