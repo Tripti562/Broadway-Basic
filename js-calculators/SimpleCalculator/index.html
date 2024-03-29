@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Simple Calculator</h2>
+      <br />
+      <form action="">
+        <label for="">Enter 1st number</label><br />
+        <input type="number" id="fst-num" /><br /><br />
+        <label for="">Enter 2nd number</label><br />
+        <input type="number" id="scd-num" min="1"/><br /><br />
+        <label for="">Select Operation</label><br />
+        <select name="" id="operation">
+          <option id="add" value="addition">Addition(+)</option>
+          <option id="sub" value="subtraction">Substraction(-)</option>
+          <option id="mul" value="multiplication">Multiplication(*)</option>
+          <option id="div" value="division">Division(/)</option>
+          <option id="remain" value="remainder">Remainder(%)</option></select
+        ><br /><br />
+        <button id="calculate">Calculate</button><br /><br />
+        <label for="">Result</label><br />
+        <input type="text" id="result" disabled />
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
