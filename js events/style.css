@@ -1,0 +1,29 @@
+#box{
+    padding: 15px;
+    background: #ddd;
+  }
+  
+  .flex{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #circle{
+    width: 300px;
+    height: 300px;
+    background: orange;
+    border-radius: 50%;
+  }
+  
+  #circle.small{
+    width: 100px;
+    height: 100px;
+    background: red;
+  }
+  
+  #output{
+    padding: 15px;
+    background: yellow;
+    border: 1px solid yellow;
+    color: black;
+  }
