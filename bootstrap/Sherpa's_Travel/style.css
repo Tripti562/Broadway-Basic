@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #f6f7fa;
+  /* text-align: center; */
+  background-image: url("images/services-bg.png");
+  background-size: 140px auto;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+div.container {
+  background-image: url("images/plane.png");
+  background-size: 60px auto;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+p.h3 {
+  text-align: center;
+  font-weight: bold;
+}
+.gray {
+  color: #d3d4d7;
+}
+p.gray {
+  text-align: center;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  /* background-color: aquamarine; */
+}
+.circle img {
+  /* border: 1px solid black; */
+  border-radius: 50%;
+}
+div.col {
+  background-color: white;
+}
+div.row {
+  padding-top: 2rem;
+}
+.col {
+  border-radius: 1.5rem;
+  margin-right: 2rem;
+}
+div.gray,
+div.h5,
+div.row1 {
+  margin: 0.5rem;
+}
+div.gray {
+  margin-bottom: 1rem;
+}
+div.row1 {
+  margin-top: -25px;
+}
