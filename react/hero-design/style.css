@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #DEEBF8;
+    font-weight: bold;
+    font-size: 1rem;
+}
+nav{
+    background-color: #21222A;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+}
+.box{
+    background-color: #282D35;
+    color: white;
+    height: 60vh;
+    padding: 3rem;
+    font-weight: bold;
+    font-size: 2.2rem;
+    background-image: url('images/reactjs-icon\ 2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box ul li{
+    list-style-type: disc;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+}
+li::marker{
+    color: #61DAFB;
+}
+.box ul li:first-child{
+    padding-top: 1.5rem;
+}
