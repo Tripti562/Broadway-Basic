@@ -1,0 +1,22 @@
+.box{
+    color: white;
+
+}
+.imgbox img{
+    height: 100%;
+    width: 20rem;
+    border-radius: .5rem;
+}
+.bxs-map{
+    color: red;
+}
+.border{
+    border-bottom: 1px solid gray;
+}
+.hover{
+    transition: all linear .5s;
+}
+.hover:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
