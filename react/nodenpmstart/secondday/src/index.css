@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bxs-star{
+  color: red;
+}
+.reviewname{
+  color: gray;
+  margin: 0;
+}
+.width{
+  width:30%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+}
+.describe{
+  margin: 0;
+}
+.bottom{
+  margin-bottom: 1rem;
+}
+.imgbox{
+  position: relative;
+}
+.card-status{
+  position: absolute;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: .2rem;
+  padding: .2rem;
+  top: .8rem;
+  left: .4rem;
+}
+.first{
+  margin-left: 100px;
+  text-align: end;
+  flex-basis:calc(100% - 100px);
+}
