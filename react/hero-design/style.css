@@ -26,12 +26,13 @@ nav ul{
     background-color: #282D35;
     color: white;
     height: 60vh;
+    /* min-height: calc(100% - 100px); */
     padding: 3rem;
     font-weight: bold;
     font-size: 2.2rem;
     background-image: url('images/reactjs-icon\ 2.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center right;
 }
 .box ul li{
     list-style-type: disc;
