@@ -1,0 +1,15 @@
+.conatiner{
+    border: 1px solid red;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+
+}
+.tagline{
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+.eighty{
+    width: 70%;
+}
