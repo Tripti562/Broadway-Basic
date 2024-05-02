@@ -1,0 +1,13 @@
+.purple{
+  background-color: purple;
+  color: white;
+}
+.purple:hover{
+  color: white;
+}
+body{
+  background-color: purple;
+}
+.white{
+  background-color: white;
+}
